@@ -131,8 +131,8 @@ a:active{
   display: block;
   position: absolute;
   right: 0;
-  top: 60px;
-  padding: 15px 20px;
+  top: 70px;
+  padding: 20px 30px;
   border-radius: 10px;
 }
 .topnav a:hover {
@@ -149,7 +149,7 @@ a:active{
       overflow: hidden;
   }
   .topnav a.icon {
-    top: 30px;
+    top: 70px;
   }
 }
 
@@ -557,7 +557,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .topnav a.icon {
-    top: 30px;
+    top: 70px;
   }
   .section_1,
   .section_3,
@@ -591,7 +591,7 @@ footer {
 }
 @media screen and (max-width: 285px) {
   .topnav a.icon {
-    top: 30px;
+    top: 49px;
   }
   .before_after {
     display: none;
