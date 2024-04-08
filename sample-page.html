@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Page</title>
+    <title>Christmas decorations</title>
     <link rel="icon" href="images/christmas-wreath.png">
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,25 +16,45 @@
         <div class="before_after"></div>
         <br>
         <hr>
-        <div class="container_header">
-        <div class="logo"><img src="images/logo.png" alt="Bird logo" class="logo"></div>
-        <nav class="navigation">
-            <ul class="header_list">
-                <li><a href="#1">TREE ORNAMENTS</a></li>
-                <li><a href="#2">DECORATIVE LIGHTS</a></li>
-                <li><a href="#3">CANDELS</a></li>
-                <li><a href="#4">BLANKETS</a></li>
-                <li><a href="#5">CONTACT US</a></li>
-            </ul>
-        </nav>
+        <div class="navigation">
+            <div class="container_header">
+                <div class="logo"><img src="images/logo.png" alt="logo" class="logo"></div>
+                <nav>
+                    <ul class="header_list">
+                        <li class="space"><a href="#1">TREE ORNAMENTS</a></li>
+                        <li class="space"><a href="#2">DECORATIVE LIGHTS</a></li>
+                        <li><a href="#3">CANDELS</a></li>
+                        <li><a href="#4">BLANKETS</a></li>
+                        <li><a href="#5">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
+<!-- Hamburger menu -->
+    <div class="topnav shadow-sm">
+        <div class="hamburger-image">
+            <div class="logo"><img src="images/logo.png" alt="logo" class="logo"></div>
+        </div>
+        <div id="myLinks">
+            <a href="#1">TREE ORNAMENTS</a>
+            <a href="#2">DECORATIVE LIGHTS</a>
+            <a href="#3">CANDELS</a>
+            <a href="#4">BLANKETS</a>
+            <a href="#5">CONTACT US</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <div>三</div>
+        </a>
+    </div>
 <!-- Body content -->
     <main>
         <section class="section_1">
             <div class="container">
-            <div class="frame_1">
-            <h1 class="first_block_title">It's Christmas time! </h1>
-            <p class="first_block_content">Like every year, magic returns to our homes and we receive it with all kinds of Christmas decorations. Bring the holiday spirit to your home with easy, no-fuss decorations. Simply hanging a couple of garlands can add a big dose of holiday cheer.Simply hanging a couple of garlands can add a big dose of holiday cheer. <br> <br> Let's celebrate Christmas! </p>
+                <div class="frame_1">
+                    <h1 class="first_block_title">It's Christmas time! </h1>
+                    <p class="first_block_content">Like every year, magic returns to our homes and we receive it with all kinds of Christmas decorations. Bring the holiday spirit to your home with easy, no-fuss decorations. Simply hanging a couple of garlands can add a big dose of holiday cheer.Simply hanging a couple of garlands can add a big dose of holiday cheer. <br> <br> Let's celebrate Christmas! </p>
+                </div>
             </div>
         </section>
         <section class="section_2" id="1">
@@ -98,9 +118,10 @@
         </section>
         <section class="section_5" id="4">
             <div class="container">
-            <div class="frame_5">
-                <h1 class="fifth_block_title">Keeping Warm this Winter</h1><br>
-                <p class="fifth_block_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, adipisci cum dolor, dolorem asperiores quos vero quae neque laudantium amet beatae mollitia consequatur aut alias tenetur reiciendis! Culpa consequuntur, et perspiciatis voluptas repellat, omnis nostrum rerum porro corporis sint quidem <br><br> dolore quaerat, a voluptatem alias ipsam nemo. Quidem, temporibus sit ipsam voluptas tempora rerum expedita explicabo maxime ducimus delectus autem, deserunt velit accusamus.  Esse aperiam laboriosam et incidunt tempora. In? Esse aperiam laboriosam et incidunt tempora. In?</p>
+                <div class="frame_5">
+                    <h1 class="fifth_block_title">Keeping Warm this Winter</h1><br>
+                    <p class="fifth_block_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, adipisci cum dolor, dolorem asperiores quos vero quae neque laudantium amet beatae mollitia consequatur aut alias tenetur reiciendis! Culpa consequuntur, et perspiciatis voluptas repellat, omnis nostrum rerum porro corporis sint quidem <br><br> dolore quaerat, a voluptatem alias ipsam nemo. Quidem, temporibus sit ipsam voluptas tempora rerum expedita explicabo maxime ducimus delectus autem, deserunt velit accusamus.  Esse aperiam laboriosam et incidunt tempora. In? Esse aperiam laboriosam et incidunt tempora. In?</p>
+                </div>
             </div>
         </section>
         <section class="section_6" id="5">
@@ -137,6 +158,7 @@
     </footer>
     <p class="rights_reserved">© 2023 All rights reserved</p>
     <br><br><br>
+    <script src="script.js"></script>
 </body>
 </html>
 
