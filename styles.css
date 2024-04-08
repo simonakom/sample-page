@@ -148,6 +148,9 @@ a:active{
       display: block;
       overflow: hidden;
   }
+  .topnav a.icon {
+    top: 30px;
+  }
 }
 
 /* Body content */
@@ -554,7 +557,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .topnav a.icon {
-    top: 50px;
+    top: 30px;
   }
   .section_1,
   .section_3,
@@ -588,7 +591,7 @@ footer {
 }
 @media screen and (max-width: 285px) {
   .topnav a.icon {
-    top: 40px;
+    top: 30px;
   }
   .before_after {
     display: none;
