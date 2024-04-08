@@ -1,4 +1,4 @@
-# <span><img src="./images/christmas-wreath.png" alt="Wikipedia-page" style="height: 1em; vertical-align: middle;"></span> Sample Page
+# <span><img src="./images/christmas-wreath.png" alt="christmas-wreath" style="height: 1em; vertical-align: middle;"></span> Sample Page
 
 This assignment is about creating a responsive page and practicing "Parallax Scrolling Effect", html semantic elements, lists, ::before / ::after, css, hamburger menu.
 
